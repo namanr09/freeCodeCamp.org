@@ -33,6 +33,15 @@ fun main(){
     var u: UByte = 10u
     var v: UShort = 20u
     var j: String = "Kotlin"
-
-    println("hello world $a") 
+    val intMax : Int = Int.MAX_VALUE
+    val byteMax : Byte = Byte.MAX_VALUE
+    val UByteMax : UByte = Byte.MAX_VALUE.toUByte()
+    // funtion to check type of variable
+    // fun checkType(vararg args: Any) {
+    //     for (arg in args) {
+    //         println("Type of $arg is ${arg::class.simpleName}")
+    //     }
+    // }
+    // checkType(a, b, c, d, e, f, g, h, i, j, u, v)
+    println("hello world $a $b $c $d $e $f $g $h $i $j") 
 }
