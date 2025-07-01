@@ -24,6 +24,7 @@ class Team<T : Player>(val name : String, val players : MutableList<T>){
             return
         }else {
             players.add(player)
+            
             println("Player: ${(player as Player).name} added.")
         }
     }
